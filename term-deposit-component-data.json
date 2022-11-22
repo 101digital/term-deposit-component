@@ -1,0 +1,23 @@
+{
+  "id": "term-deposit-component",
+  "name": "Term Deposit Component",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/101digital/term-deposit-component.git"
+  },
+  "config": {
+    "env": {
+      "development": {
+        "customerSupportBaseUrl": "https://contact.101digital.io"
+      },
+      "staging": {
+        "customerSupportBaseUrl": "https://contact.101digital.io"
+      },
+      "production": {
+        "customerSupportBaseUrl": "https://contact.101digital.io"
+      }
+    }
+  },
+  "dependencies": [],
+  "templates": []
+}
