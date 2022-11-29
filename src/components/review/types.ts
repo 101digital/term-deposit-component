@@ -1,0 +1,62 @@
+import { ReactNode } from 'react';
+import { ImageStyle, StyleProp, TextStyle, View, ViewStyle } from 'react-native';
+
+export type TDReviewApplicationComponentProps = {
+  style?: TDReviewApplicationComponentStyles;
+  props?: {
+    onConfirmed: () => void;
+    onEditNickName: () => void;
+    onEditPeriod: () => void;
+  };
+};
+
+export type TDReviewApplicationComponentStyles = {
+  containerStyle?: StyleProp<ViewStyle>;
+  cardContainerStyle?: StyleProp<ViewStyle>;
+  cardTitleStyle?: StyleProp<TextStyle>;
+  cardValueStyle?: StyleProp<TextStyle>;
+  cardSubTitleStyle?: StyleProp<TextStyle>;
+  contentWrapper?: StyleProp<ViewStyle>;
+  addProductWrapper?: StyleProp<ViewStyle>;
+  row?: StyleProp<ViewStyle>;
+  addProductTitle?: StyleProp<TextStyle>;
+  dashboardCarousel?: StyleProp<ViewStyle>;
+  sliderContainerStyle?: StyleProp<ViewStyle>;
+  titleSection?: StyleProp<TextStyle>;
+  learnSection?: StyleProp<ViewStyle>;
+  pageTitle?: StyleProp<TextStyle>;
+  productContainer?: StyleProp<ViewStyle>;
+  icon?: StyleProp<ImageStyle>;
+  potentialEarningBox?: StyleProp<ViewStyle>;
+  interestRateBox?: StyleProp<ViewStyle>;
+  calculateSection?: StyleProp<ViewStyle>;
+  numberValue?: StyleProp<TextStyle>;
+  interestRateTxt?: StyleProp<TextStyle>;
+  inputWrapper?: StyleProp<ViewStyle>;
+  input?: StyleProp<ViewStyle>;
+  errorTxt?: StyleProp<TextStyle>;
+  tennorBox?: StyleProp<ViewStyle>;
+  listTenor?: StyleProp<ViewStyle>;
+  tenorSection?: StyleProp<ViewStyle>;
+  selectedTennorBox?: StyleProp<ViewStyle>;
+  cardSelectedStyle?: StyleProp<ViewStyle>;
+  selectedTennorValue?: StyleProp<TextStyle>;
+  tennorValue?: StyleProp<TextStyle>;
+  subTitle?: StyleProp<TextStyle>;
+  selectedCardSubTitle?: StyleProp<TextStyle>;
+  selectedCardTitle?: StyleProp<TextStyle>;
+  tcRow?: StyleProp<ViewStyle>;
+  maturityDates?: StyleProp<ViewStyle>;
+  editIcon?: StyleProp<ViewStyle>;
+  rowInfo?: StyleProp<ViewStyle>;
+  cardContent?: StyleProp<ViewStyle>;
+  infoBox?: StyleProp<ViewStyle>;
+  infoAmountSection?: StyleProp<ViewStyle>;
+  infoHeader?: StyleProp<ViewStyle>;
+  payoutBox?: StyleProp<ViewStyle>;
+  rowBetween?: StyleProp<ViewStyle>;
+  infoPeriodSection?: StyleProp<ViewStyle>;
+  maturityDatesLabel?: StyleProp<TextStyle>;
+  cardSubTitleStyleSmall?: StyleProp<TextStyle>;
+  tcLabel?: StyleProp<TextStyle>;
+};

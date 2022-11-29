@@ -4,7 +4,7 @@ type TermDepositClient = {
   countryInformationClient: any;
 };
 
-export class TermDepositService {
+ class TermDepositService {
   private static _instance: TermDepositService = new TermDepositService();
 
   constructor() {
@@ -22,3 +22,6 @@ export class TermDepositService {
 
   public initClients = (clients: TermDepositClient) => {};
 }
+
+
+export default TermDepositService
